@@ -1,0 +1,130 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-image: linear-gradient(to bottom right,rgb(83, 83, 199),rgb(182, 182, 108),rgb(153, 84, 84),gray,rgb(118, 201, 118));
+}
+.frm{
+    width:350px;
+    height:400px;
+    background-image: linear-gradient(to bottom right,rgb(209, 209, 230),rgb(199, 199, 158),rgb(190, 180, 180),rgb(255, 255, 255),rgb(118, 201, 118));
+    border-radius: 10px;
+    margin: 0px auto;
+    margin-top: 100px;
+  
+  
+ 
+}
+.icon{
+    width:80px;
+    height:80px;
+    background-color: rgb(15, 53, 63);
+    border-radius: 50%;
+    margin: 0px auto;
+    position: relative;
+    top:150px;
+}
+h3{
+    color: rgb(54, 49, 49);
+    padding: 10px;
+    text-align: center;
+    font-size:30px;
+}
+input[type="text"]{
+    width:300px;
+    height:40px;
+    background-color: rgb(202, 198, 198);
+    margin:15px;
+    padding-left:50px;
+}
+input[type="text"]::placeholder{
+    color:black;
+    font-size:20px;
+    padding:10px;
+
+}
+input[type="password"]{
+    width:300px;
+    height:40px;
+    background-color: rgb(202, 198, 198);
+    margin:15px;
+    padding-left:50px;
+}
+input[type="password"]::placeholder{
+    color:black;
+    font-size:20px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width:300px;
+    height:40px;
+    background-color: rgb(15, 53, 63);
+    margin:15px;
+    font-size:20px;
+    color: white;
+}
+span{
+    display: inline-flex;
+    padding: 10px;
+}
+.anchor{
+    margin-left:40px;
+    text-decoration: none;
+}
+hr{
+ 
+ color: black;
+ width: 400px;
+ margin: 0px auto;
+
+}
+#footer{
+    margin-left:550px;
+    color: white;
+    font-size: medium;
+}
+.logo1{
+   margin-left:14px;
+   color: rgb(197, 190, 190);
+}
+.logo2{
+    position:relative;
+    left:50px;
+}  
+@media only screen and (max-width:768px){
+    .frm{
+        width:auto;
+        height:auto;
+        background-image: linear-gradient(to bottom right,rgb(209, 209, 230),rgb(199, 199, 158),rgb(190, 180, 180),rgb(255, 255, 255),rgb(118, 201, 118));
+        border-radius: 10px;
+        margin: 0px auto;
+        margin-top: 100px;
+      }
+      input[type="text"]{
+        margin-left: 100px;
+      }
+      input[type="password"]{
+        margin-left: 100px;
+      }
+      input[type="submit"]{
+        margin-left: 100px;
+      }
+      .logo2{
+        position:relative;
+        left:150px;
+    } 
+    span{
+     
+      margin-left: 100px;
+    }
+
+    hr{
+        margin:0 auto; 
+       }
+    #footer {
+        margin-left:100px;
+        
+    }
+}
